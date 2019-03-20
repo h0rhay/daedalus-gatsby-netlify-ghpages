@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: /h0rhay/daedalus-gatsby-netlify-ghpages/h0rhay.github.io/
+  name: git-gateway
   branch: master
-  site_domain: https://h0rhay.github.io/daedalus-gatsby-netlify-ghpages/
 
 media_folder: static/img
 public_folder: /img
