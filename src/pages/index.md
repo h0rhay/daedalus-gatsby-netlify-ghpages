@@ -1,9 +1,15 @@
 ---
 templateKey: index-page
 title: Daedalus - Cryptocurrency wallet
+<<<<<<< HEAD
 image: /img/iohk.svg
 heading: WELCOME TO DAEDALUS
 subheading: The open source wallet for ada, built to grow with the Cardano blockchain
+=======
+image: /img/home-jumbotron.jpg
+heading: WELCOME TO THE PLEASUREDOME
+subheading: 'The open source wallet for ada, built to grow with the Cardano blockchain'
+>>>>>>> 282bc55f4818adca7100320ef639dcfece5a5d87
 mainpitch:
   title: ADA - THE CRYPTOCURRENCY OF CARDANO
   description: >
