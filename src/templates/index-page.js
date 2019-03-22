@@ -28,7 +28,8 @@ import PageTransition from 'gatsby-v2-plugin-page-transitions'
 
 export const IndexPageTemplate = ({
   heading,
-  subheading
+  subheading,
+  mainpitch
 }) => (
   <div>
     {/* <div
@@ -129,7 +130,7 @@ export const IndexPageTemplate = ({
               </div>
           </div>
         </div>
-        <BlockWelcome />
+        <BlockWelcome mainpitch={mainpitch}/>
         <CardanoDownLoaders />
         <LearnMore />
         <ComingSoon />
@@ -194,21 +195,6 @@ export const pageQuery = graphql`
         subheading
         mainpitch {
           title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
           description
         }
       }
