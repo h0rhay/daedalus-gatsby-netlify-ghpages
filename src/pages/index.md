@@ -2,8 +2,8 @@
 templateKey: index-page
 title: Daedalus - Cryptocurrency wallet
 image: /img/home-jumbotron.jpg
-heading: WELCOME TO DAEDALUS
-subheading: The open source wallet for ada, built to grow with the Cardano blockchain
+heading: WELCOME TO THE PLEASUREDOME
+subheading: 'The open source wallet for ada, built to grow with the Cardano blockchain'
 mainpitch:
   title: Why Kaldi
   description: >
