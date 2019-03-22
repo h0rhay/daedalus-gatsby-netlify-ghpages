@@ -10,7 +10,7 @@ import { WindowsGuide,
   LinuxGuide,
   WindowsChecksumGuide,
   MacChecksumGuide,
-  LinuxChecksumGuide } from './downloaderModals'
+  LinuxChecksumGuide } from './downloaderModals/index'
 
 let data
 
