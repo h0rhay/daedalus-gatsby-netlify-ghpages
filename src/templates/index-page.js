@@ -1,22 +1,37 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
+
+
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
+// import Features from '../components/Features'
+
+import BlockWelcome from '../components/daedalus/block-welcome'
+import CardanoDownLoaders from '../components/daedalus/downloaderComponent'
+import Bgspinner from '../components/daedalus/bg-spinner'
+import LearnMore from '../components/daedalus/learn-more'
+import ComingSoon from '../components/daedalus/coming-soon'
+import End from '../components/daedalus/end'
+import Button from '../components/daedalus/button'
+
+import PageTransition from 'gatsby-v2-plugin-page-transitions'
+
+// image,
+//   title,
+//   heading,
+//   subheading,
+//   mainpitch,
+//   description,
+//   intro,
+//   main,
 
 export const IndexPageTemplate = ({
-  image,
-  title,
   heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
-  main,
+  subheading
 }) => (
   <div>
-    <div
+    {/* <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
@@ -99,7 +114,27 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
+    <PageTransition>
+        <Bgspinner />
+        <div className="mt-4 mb-5">
+          <h1 className="text-center text-uppercase">{heading}</h1>
+          <p className="text-center">{subheading}</p>
+          <div className="d-flex justify-content-center">
+              <div className="text-center m-2">
+                <a href='https://whycardano.com' target="_blank" rel="noopener noreferrer"><Button type="primary" text="Learn more"></Button></a>
+              </div>
+              <div className="text-center m-2">
+                <a href='https://iohk.zendesk.com/hc/en-us/categories/360000877653-Daedalus-wallet-mainnet' target="_blank" rel="noopener noreferrer"><Button type="secondary" text="Get support"></Button></a>
+              </div>
+          </div>
+        </div>
+        <BlockWelcome />
+        <CardanoDownLoaders />
+        <LearnMore />
+        <ComingSoon />
+        <End />
+      </PageTransition>
   </div>
 )
 

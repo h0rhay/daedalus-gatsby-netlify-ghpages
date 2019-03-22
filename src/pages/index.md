@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Daedalus - Cryptocurrency wallet
 image: /img/home-jumbotron.jpg
-heading: 'Great coffee '
-subheading: Support sustainable farming while enjoying a cup
+heading: WELCOME TO DAEDALUS
+subheading: The open source wallet for ada, built to grow with the Cardano blockchain
 mainpitch:
   title: Why Kaldi
   description: >

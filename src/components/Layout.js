@@ -1,8 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import './all.sass'
+// import Footer from '../components/Footer'
+// import Navbar from '../components/Navbar'
+import 'typeface-montserrat'
+import '../assets/styles/bootstrap-imports.scss'
+import '../assets/styles/custom.scss'
+
 import useSiteMetadata from './SiteMetadata'
 
 const TemplateWrapper = ({ children }) => {
@@ -44,9 +47,9 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
+      {/* <Navbar /> */}
+      <div className='wrap'>{children}</div>
+      {/* <Footer /> */}
     </div>
   )
 }
