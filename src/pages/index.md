@@ -2,8 +2,10 @@
 templateKey: index-page
 title: Daedalus - Cryptocurrency wallet
 image: /img/main-daedalus-logo.png
-heading: WELCOME TO DAEDALUS WALLET
-subheading: 'The open source wallet for ada, built to grow with the Cardano blockchain'
+heading: WELCOME TO AMAZING DAEDALUS WALLET
+subheading: >-
+  The open source wallet for ADA, built to grow with the Cardano blockchain epic
+  collective
 mainpitch:
   description: >
     Daedalus is a secure wallet for the ada cryptocurrency. Download and install
